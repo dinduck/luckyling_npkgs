@@ -20,10 +20,10 @@ stdenv.mkDerivation {
   buildInputs = [
   ];
   installPhase = ''
-    mkdir -p $out/usr/bin
+    mkdir -p $out/bin
     strip bin/fake86
-    cp bin/fake86 $out/usr/bin
-    cp bin/data/asciivga.dat bin/data/pcxtbios.bin bin/data/videorom.bin bin/data/rombasic.bin $out/usr/bin
+    cp bin/fake86 $out/bin
+    cp bin/data/asciivga.dat bin/data/pcxtbios.bin bin/data/videorom.bin bin/data/rombasic.bin $out/bin
   '';
 
   meta = {
