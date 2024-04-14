@@ -14,6 +14,7 @@
   example-package = pkgs.callPackage ./pkgs/example-package {};
   fake86 = pkgs.callPackage ./pkgs/fake86 {};
   picgo = pkgs.callPackage ./pkgs/picgo {};
+  openocd-udev = pkgs.callPackage ./pkgs/openocd-udev {};
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
